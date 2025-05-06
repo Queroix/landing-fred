@@ -5,7 +5,6 @@ import PropertiesSection from "@/sections/PropertiesSection";
 import ContactSection from "@/sections/ContactSection";
 import Footer from "@/components/Footer";
 import WhatsappButton from "@/components/WhatsappButton";
-import Head from "next/head";
 
 export default function Home() {
   return (
