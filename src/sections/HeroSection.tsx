@@ -1,11 +1,11 @@
 "use client";
 
-import { useKeenSlider } from "keen-slider/react";
+import { useKeenSlider, KeenSliderInstance } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
 
 const images = ["/hero1.jpg", "/hero2.jpg", "/hero3.jpeg", "/hero4.jpg"];
 
-function AutoSlidePlugin(slider: any) {
+function AutoSlidePlugin(slider: KeenSliderInstance) {
   let timeout: ReturnType<typeof setTimeout>;
   let mouseOver = false;
 
