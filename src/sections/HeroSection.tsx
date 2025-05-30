@@ -66,7 +66,7 @@ export default function HeroSection() {
       <div className="absolute inset-0 z-10 bg-black/50 flex items-center justify-center px-4 text-center">
         <div>
           <h1 className="text-4xl md:text-6xl font-bold">
-            Avaliação e Venda de Imóveis de Alto Padrão
+            Avaliação Imobiliária, Vendas, Vistorias e Serviços Diversos
           </h1>
           <p className="mt-4 text-lg md:text-xl max-w-2xl mx-auto">
             Com expertise e transparência, ajudamos você a tomar decisões
