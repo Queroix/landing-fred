@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from 'react';
-import { FaWhatsapp, FaTimes } from 'react-icons/fa';
+import { FaWhatsapp } from 'react-icons/fa';
 import { motion, AnimatePresence } from 'framer-motion';
 
 export default function WhatsappButton() {
